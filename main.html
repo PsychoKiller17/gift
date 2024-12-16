@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🎉 Happy Birthday 🎂</title>
+    <style>
+        /* Set a full background image */
+        body {
+            margin: 0;
+            padding: 0;
+            background-image: url('birthday-background.jpg'); /* Replace with your image URL */
+            background-size: cover; /* Ensures the image covers the entire background */
+            background-repeat: no-repeat; /* Prevents tiling of the image */
+            background-position: center center; /* Centers the image */
+            height: 130vh; /* Ensures the background covers the full viewport height */
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        h1 {
+            margin-top: 20px;
+            font-size: 80px;
+            color: #ff6f61;
+            text-shadow: 8px 9px #000000fe;
+            text-align: center;
+        }
+
+        p {
+            color: #ff00d9;
+            font-style: italic;
+            text-shadow: 1px 1px black;
+            text-align: center;
+            font-size: 30px;
+            max-width: 900px;
+        }
+
+        /* Button styles */
+        button {
+            color: #fff;
+            background-color: #ff1493;
+            border: none;
+            border-radius: 30px;
+            font-size: 20px;
+            font-weight: bold;
+            padding: 15px 40px; /* Longer button */
+            cursor: pointer;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+            transition: all 0.3s ease; /* Smooth transition for animations */
+        }
+
+        /* Button hover effect */
+        button:hover {
+            background-color: #ff69b4; /* Slightly lighter pink on hover */
+            transform: scale(1.1) rotate(-3deg); /* Button grows slightly and rotates */
+            box-shadow: 0 6px 25px rgba(0, 0, 0, 0.4); /* Deeper shadow */
+        }
+
+        /* Button active effect */
+        button:active {
+            transform: scale(0.95); /* Button shrinks slightly when clicked */
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2); /* Softer shadow */
+        }
+
+        /* Animation for button appearance */
+        button {
+            animation: popIn 0.6s ease-out;
+        }
+
+        @keyframes popIn {
+            0% {
+                transform: scale(0.5);
+                opacity: 0;
+            }
+            100% {
+                transform: scale(1);
+                opacity: 1;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>🎉 Happy Birthday Mathu 🎂</h1>
+    <p>
+        Wishing you a day as special as you are! You’re not just my cousin; you’re like a sibling and a best friend rolled into one. 🥰 Your kindness, laughter, and love brighten every moment, and I’m so lucky to have you in my life.
+        <br><br>
+        May this year bring you endless happiness, success, and all your dreams coming true. Keep being the amazing person you are, and never stop shining! ✨
+        <br><br>
+        Have a fantastic birthday filled with love, laughter, and cake!
+    </p>
+    <a href="video.html">
+        <button>My Small Gift</button>
+    </a>
+</body>
+</html>
